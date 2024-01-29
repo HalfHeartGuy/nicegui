@@ -42,6 +42,7 @@ rows = [
 ]
 '''
 
-rund1_table = ui.table(columns=columns_nicegui, rows=one_row_dict, row_key='Jahrgangstufe')
+rund1_table = ui.table(columns=columns_nicegui, rows=one_row_dict, row_key='Jahrgangstufe',pagination=10)
+
 
 ui.run()
